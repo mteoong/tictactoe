@@ -11,7 +11,7 @@ html {
 
 /* ------- Main -------*/
 .content-wrapper {
-    padding: 50px;
+    padding: 30px;
     max-width: 1000px;
     margin: auto;
     height: 100%;
@@ -25,6 +25,7 @@ h1.title {
     font-size: 4rem;
     text-align: center;
     width: 100%;
+    padding-bottom: 0;
 }
 
 h2.restart {
@@ -93,8 +94,22 @@ h1.pop-up {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    width: 400px;
+    width: 500px;
     margin-bottom: 30px;
+}
+
+.choose-player {
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.choose-computer {
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 /*------- Game Board -------*/
@@ -117,11 +132,14 @@ h1.pop-up {
     background-color: rgb(205, 217, 253);
 }
 
-.o {
-    background-image: 
+.circle {
+    background-image: url("Media/circle.png");
+    background-size: 150%;
+    background-position: 50%;
 }
 
-.x {
-    background-image:
+.cross {
+    background-image: url("Media/cross.png");
+    background-size: 85%;
+    background-position: 50%;
 }
-
